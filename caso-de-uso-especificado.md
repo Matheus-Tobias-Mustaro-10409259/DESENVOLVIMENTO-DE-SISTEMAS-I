@@ -1,5 +1,6 @@
-##Especificação de Casos de Uso - Sistema de Trocas
-#Realizar Login (Usuário)
+**Especificação de Casos de Uso - Sistema de Trocas**
+
+*Realizar Login (Usuário)*
 Ator: Usuário
 
 Descrição: Permite que o usuário acesse o sistema utilizando suas credenciais.
@@ -22,7 +23,7 @@ Pós-condições:
 Usuário autenticado no sistema.
 
 ======================================================================
-#Acessar Perfil
+*Acessar Perfil*
 Ator: Usuário
 
 Descrição: Permite visualizar e editar informações pessoais.
@@ -38,7 +39,7 @@ Extensões:
 Alterar dados pessoais.
 
 ======================================================================
-#Acessar Notas de Troca
+*Acessar Notas de Troca*
 Ator: Usuário
 
 Descrição: Permite visualizar suas notas de troca.
@@ -56,7 +57,7 @@ Relacionamentos:
 <> Realizar troca
 
 ======================================================================
-#Realizar Troca
+*Realizar Troca*
 Atores: Usuário, Funcionário
 
 Descrição: Permite realizar a troca de um produto.
@@ -81,7 +82,7 @@ Pós-condições:
 Troca registrada no sistema.
 
 ======================================================================
-#Ler Código de Barras
+*Ler Código de Barras*
 Ator: Funcionário
 
 Descrição: Permite a leitura de códigos de barras para validação.
@@ -98,7 +99,7 @@ Pós-condições:
 Código identificado no sistema.
 
 ======================================================================
-#Registrar Usuário
+*Registrar Usuário*
 Ator: Funcionário
 
 Descrição: Permite cadastrar novos usuários.
@@ -110,7 +111,7 @@ O sistema valida as informações.
 O sistema salva o cadastro.
 
 ======================================================================
-#Alterar Usuário
+*Alterar Usuário*
 Ator: Funcionário
 
 Descrição: Permite atualizar dados de um usuário.
@@ -121,7 +122,7 @@ Altera os dados necessários.
 O sistema salva as alterações.
 
 ======================================================================
-#Registrar Troca
+*Registrar Troca*
 Ator: Funcionário
 
 Descrição: Registra uma nova nota de troca.
@@ -132,7 +133,7 @@ Insere os dados da troca.
 O sistema gera a nota com código de barras.
 
 ======================================================================
-#Registrar Funcionário
+*Registrar Funcionário*
 Ator: Gerente
 
 Descrição: Permite cadastrar novos funcionários.
@@ -143,7 +144,7 @@ Insere os dados.
 O sistema valida e salva o cadastro.
 
 ======================================================================
-#Login (Funcionário e Gerente)
+*login (Funcionário e Gerente)*
 Atores: Funcionário, Gerente
 
 Descrição: Permite acesso administrativo ao sistema.
