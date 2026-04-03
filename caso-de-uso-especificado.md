@@ -23,6 +23,7 @@ Pós-condições:
 Usuário autenticado no sistema.
 
 ======================================================================
+
 *Acessar Perfil*
 Ator: Usuário
 
@@ -39,6 +40,7 @@ Extensões:
 Alterar dados pessoais.
 
 ======================================================================
+
 *Acessar Notas de Troca*
 Ator: Usuário
 
@@ -57,6 +59,7 @@ Relacionamentos:
 <> Realizar troca
 
 ======================================================================
+
 *Realizar Troca*
 Atores: Usuário, Funcionário
 
@@ -82,6 +85,7 @@ Pós-condições:
 Troca registrada no sistema.
 
 ======================================================================
+
 *Ler Código de Barras*
 Ator: Funcionário
 
@@ -99,6 +103,7 @@ Pós-condições:
 Código identificado no sistema.
 
 ======================================================================
+
 *Registrar Usuário*
 Ator: Funcionário
 
@@ -111,6 +116,7 @@ O sistema valida as informações.
 O sistema salva o cadastro.
 
 ======================================================================
+
 *Alterar Usuário*
 Ator: Funcionário
 
@@ -122,6 +128,7 @@ Altera os dados necessários.
 O sistema salva as alterações.
 
 ======================================================================
+
 *Registrar Troca*
 Ator: Funcionário
 
@@ -133,6 +140,7 @@ Insere os dados da troca.
 O sistema gera a nota com código de barras.
 
 ======================================================================
+
 *Registrar Funcionário*
 Ator: Gerente
 
@@ -144,7 +152,8 @@ Insere os dados.
 O sistema valida e salva o cadastro.
 
 ======================================================================
-*login (Funcionário e Gerente)*
+
+*Login (Funcionário e Gerente)*
 Atores: Funcionário, Gerente
 
 Descrição: Permite acesso administrativo ao sistema.
